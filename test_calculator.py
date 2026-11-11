@@ -33,4 +33,8 @@ def test_power():
     assert power(2, 3) == 8
 
 
+def test_power_zero():
+    from calculator import power
+    assert power(5, 0) == 1
+
     
