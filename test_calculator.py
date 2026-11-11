@@ -37,4 +37,7 @@ def test_power_zero():
     from calculator import power
     assert power(5, 0) == 1
 
-    
+def test_power_zero():
+    from calculator import power
+    assert power(7, 0) == 0   
+
