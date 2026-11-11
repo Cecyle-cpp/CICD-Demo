@@ -36,3 +36,8 @@ def test_power_zero():
     from calculator import power
     assert power(7, 0) == 1
 
+def test_add_floats():
+    from calculator import add
+    assert add(0.5, 0.25) == 0.75
+
+
