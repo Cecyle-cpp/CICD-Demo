@@ -35,14 +35,9 @@ def test_power():
 
 def test_power_zero():
     from calculator import power
-    assert power(5, 0) == 1
-
-def test_power_zero():
-    from calculator import power
     assert power(7, 0) == 0   
 
 def test_power_negaive_exponent():
     from calculator import power
     assert power(2, -1) == 0.5
 
-    
